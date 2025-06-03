@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Base.Theme.IOTProjectMyVersion" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your Material3 shapes -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.MyRoundedButton</item>
+    </style>
+
+    <!-- This is your main theme -->
+    <style name="Theme.IOTProjectMyVersion" parent="Base.Theme.IOTProjectMyVersion" />
+
+    <!-- Custom rounded shape for buttons -->
+    <style name="ShapeAppearance.MyRoundedButton" parent="ShapeAppearance.Material3.Corner.None">
+        <item name="cornerSize">20dp</item>
+    </style>
+
+</resources>
